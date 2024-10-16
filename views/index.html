@@ -1,34 +1,52 @@
 <!DOCTYPE html>
-
 <html>
-
    <head>
+      <!-- Title of the webpage -->
       <title>Request Header Parser</title>
+
+      <!-- Favicon for the webpage -->
       <link rel="shortcut icon" href="https://cdn.hyperdev.com/us-east-1%3A52a203ff-088b-420f-81be-45bf559d01b1%2Ffavicon.ico" type="image/x-icon"/>
-      <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css">
+
+      <!-- Google Font "Roboto" for styling -->
+      <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet" type="text/css">
+      
+      <!-- Link to external stylesheet (if any) -->
       <link href="style.css" rel="stylesheet" type="text/css">
    </head>
 
    <body>
       <div class="container">
-        <h1>Request Header Parser Microservice</h1>
+         <!-- Main header for the microservice -->
+         <h1 class="main-title">Request Header Parser Microservice</h1>
 
-        <h2>Example Usage:</h2>
-        <p>
-          <a href="api/whoami">[base url]/api/whoami</a>
-        </p>
+         <!-- Section showing example usage of the API -->
+         <section class="usage-section">
+            <h2>Example Usage:</h2>
+            <p>
+               <a href="api/whoami" class="api-link">[base url]/api/whoami</a>
+            </p>
+         </section>
 
-        <h2>Example Output:</h2>
-        <p>
-          <code>{"ipaddress":"::ffff:159.20.14.100","language":"en-US,en;q=0.5",<br>"software":"Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:50.0) Gecko/20100101 Firefox/50.0"}</code>
-        </p>
+         <!-- Section showing example output of the API -->
+         <section class="output-section">
+            <h2>Example Output:</h2>
+            <p>
+               <code class="json-output">
+                  {"ipaddress":"::ffff:159.20.14.100", "language":"en-US,en;q=0.5",<br>
+                  "software":"Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:50.0) Gecko/20100101 Firefox/50.0"}
+               </code>
+            </p>
+         </section>
       </div>
-      <div class="footer">
-        <p>
-          by <a href="https://www.freecodecamp.org">freeCodeCamp</a>
-        </p>
-      </div>
+
+      <!-- Footer with credits -->
+      <footer class="footer">
+         <p>
+            By 
+            <a href="https://davidsheinbeinengineer.com/" class="footer-link">
+               David Sheinbein
+            </a>
+         </p>
+      </footer>
    </body>
-
-
 </html>
