@@ -5,7 +5,7 @@ This is a simple full-stack JavaScript microservice that returns information abo
 ## Live Demo
 
 You can check out the live demo of the project here:  
-**[Request Header Parser Microservice](https://3000-freecodecam-boilerplate-frluit0o0nf.ws-us116.gitpod.io/api/whoami)**
+**[Request Header Parser Microservice](https://3000-freecodecam-boilerplate-frluit0o0nf.ws-us116.gitpod.io/)**
 
 ## Project Features
 
