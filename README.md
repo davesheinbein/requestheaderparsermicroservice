@@ -2,6 +2,8 @@
 
 This is a simple full-stack JavaScript microservice that returns information about the client's request, such as their IP address, preferred language, and system information. The project is built with [Node.js](https://nodejs.org/) and [Express.js](https://expressjs.com/), and is part of the freeCodeCamp curriculum for Back End Development and APIs.
 
+This project was built off the [boilerplate](https://github.com/freeCodeCamp/boilerplate-project-headerparser/) provided by freeCodeCamp for the Request Header Parser Microservice project.
+
 ## Live Demo
 
 You can check out the live demo of the project here:  
